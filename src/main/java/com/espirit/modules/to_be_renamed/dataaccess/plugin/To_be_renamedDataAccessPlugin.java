@@ -21,7 +21,7 @@ import de.espirit.firstspirit.client.plugin.dataaccess.aspects.Reporting;
  * input components, etc..  Please see FirstSpirit API for more information.
  */
 
-@PublicComponent(name = "DevconCloudinary1DataAccessPlugin")
+@PublicComponent(name = "To_be_renamedDataAccessPlugin")
 public class To_be_renamedDataAccessPlugin implements DataAccessPlugin<To_be_renamedPOJO> {
 
 	private final DataAccessAspectMap _aspects = new DataAccessAspectMap();

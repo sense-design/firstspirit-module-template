@@ -6,11 +6,11 @@ import de.espirit.firstspirit.module.WebApp;
 import de.espirit.firstspirit.module.WebEnvironment;
 import de.espirit.firstspirit.module.descriptor.WebAppDescriptor;
 
-@WebAppComponent(name = "devcon-cloudinary-1-web-app",
-        displayName = "Devcon Cloudinary 1 Web App",
+@WebAppComponent(name = "to_be_renamed-web-app",
+        displayName = "To_be_renamed Web App",
         webXml = "web/web.xml",
         webResources = {
-                @WebResource(path = "to_be_renamed/", name = "devcon-cloudinary-1-web-resources", version = "1.0.0", targetPath = "to_be_renamed/")
+                @WebResource(path = "to_be_renamed/", name = "to_be_renamed-web-resources", version = "1.0.0", targetPath = "to_be_renamed/")
         }
 )
 public class To_be_renamedWebApp implements WebApp {

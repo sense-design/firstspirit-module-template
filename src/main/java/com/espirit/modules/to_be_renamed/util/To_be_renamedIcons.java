@@ -50,7 +50,7 @@ public class To_be_renamedIcons {
 	 * @return the active Image
 	 */
 	public static Image<?> getActive(BaseContext context) {
-		return getImageIcon(context, "cp-flag");
+		return getImageIcon(context, "icon");
 	}
 
 	/**
@@ -60,7 +60,7 @@ public class To_be_renamedIcons {
 	 * @return the inactive Image
 	 */
 	public static Image<?> getInactive(BaseContext context) {
-		return getImageIcon(context, "cp-flag");
+		return getImageIcon(context, "icon");
 	}
 
 	/**
@@ -70,6 +70,6 @@ public class To_be_renamedIcons {
 	 * @return the snippet Image
 	 */
 	public static Image<?> getSnippet(BaseContext context) {
-		return getImageIcon(context, "cp-flag");
+		return getImageIcon(context, "icon");
 	}
 }

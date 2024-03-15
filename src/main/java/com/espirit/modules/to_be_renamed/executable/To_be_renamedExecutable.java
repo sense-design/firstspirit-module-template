@@ -9,7 +9,7 @@ import java.io.Writer;
 
 import java.util.Map;
 
-@PublicComponent(name = "DevconCloudinary1Executable")
+@PublicComponent(name = "To_be_renamedExecutable")
 public class To_be_renamedExecutable implements Executable {
     /*
         #!executable-class

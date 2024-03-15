@@ -45,24 +45,35 @@ public class To_be_renamedConnector {
 
     //constructor with project app config panel values
     private To_be_renamedConnector(SpecialistsBroker broker) {
-        var1 = To_be_renamedProjectConfig.values(broker, To_be_renamedProjectApp.class).getString(To_be_renamedProjectConfig.VAR_1);
-        var2 = To_be_renamedProjectConfig.values(broker, To_be_renamedProjectApp.class).getString(To_be_renamedProjectConfig.VAR_2);
+        this.var1 = To_be_renamedProjectConfig.values(broker, To_be_renamedProjectApp.class).getString(To_be_renamedProjectConfig.VAR_1);
+        this.var2 = To_be_renamedProjectConfig.values(broker, To_be_renamedProjectApp.class).getString(To_be_renamedProjectConfig.VAR_2);
     }
 
     //constructor with manual values if needed
     private To_be_renamedConnector(String var1, String var2) {
-       this.var1 = var1;
+        this.var1 = var1;
         this.var2 = var2;
     }
 
     //implement some methods to communicate with some third party API
 
     public List<To_be_renamedPOJO> getSomeData(String filterBySomething) {
-        return new ArrayList<To_be_renamedPOJO>();
+
+        //replace this getSomeData method with meaningful name and an appropriate filter criteria
+
+        ArrayList<To_be_renamedPOJO> to_be_renamedList = new ArrayList<To_be_renamedPOJO>();
+        To_be_renamedPOJO to_be_renamedItem = new To_be_renamedPOJO(this.var1);
+        to_be_renamedList.add(to_be_renamedItem);
+
+        return to_be_renamedList;
     }
 
     public List<To_be_renamedPOJO> getSomeData(Collection<String> filterBySomethingMultiple) {
-        return new ArrayList<To_be_renamedPOJO>();
+
+        //call the single filter method above for demo purposes
+        //replace this getSomeData method with a meaningful name and some appropriate filter criterias
+
+        return getSomeData("");
     }
 
 }

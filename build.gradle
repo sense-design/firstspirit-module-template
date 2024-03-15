@@ -112,23 +112,7 @@ afterEvaluate {
     }
 }
 
-task replaceDevcon {
-    doLast {
-        fileTree("src").visit { details ->
-            if (details.file.isFile()) {
-                def replacement = project.property('firstSpiritModule.moduleName').trim()
-                replacement = replacement.substring(0, 1).toUpperCase() + replacement.substring(1)
-
-                def fileContent = details.file.text
-                fileContent = fileContent.replaceAll(/(?i)Devcon/, replacement)
-
-                details.file.text = fileContent
-            }
-        }
-    }
-}
-
-task replaceNames(dependsOn: replaceDevcon) {
+task replaceNames() {
     doLast {
         copy {
             from("src") {

@@ -8,7 +8,7 @@ import de.espirit.firstspirit.webedit.plugin.inlineedit.InlineEditItem;
 import java.util.Arrays;
 import java.util.Collection;
 
-@PublicComponent(name = "DevconCloudinary1SectionnWebeditInlineEditItemsPlugin")
+@PublicComponent(name = "To_be_renamedSectionnWebeditInlineEditItemsPlugin")
 public class To_be_renamedSectionWebeditInlineEditItemsPlugin implements WebeditInlineEditItemsPlugin {
 
     private BaseContext _context;
