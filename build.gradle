@@ -116,10 +116,14 @@ task replaceNames() {
     doLast {
         copy {
             from("src") {
-                include "**"
+                include "**/*.properties"
+                include "**/*.java"
+
             }
+
             // Have to use a new path for modified files
             into("tmp")
+
             filter {
                 String line ->
                     line.replaceAll("To_be_renamed", "${project.property('firstSpiritModule.moduleName').trim()}").replaceAll("to_be_renamed", "${project.property('firstSpiritModule.moduleName').trim().toLowerCase()}")
