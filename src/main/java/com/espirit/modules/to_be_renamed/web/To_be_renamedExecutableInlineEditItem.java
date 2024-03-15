@@ -15,7 +15,7 @@ public class To_be_renamedExecutableInlineEditItem implements ExecutableInlineEd
     }
 
     public String getIconPath(final InlineEditContext context) {
-        return "to_be_renamed/icon.png";
+        return "icons/icon.png";
     }
 
     public boolean isVisible(final InlineEditContext context) {
