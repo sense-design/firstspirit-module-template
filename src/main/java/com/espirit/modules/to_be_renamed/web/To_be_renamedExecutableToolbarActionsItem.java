@@ -10,7 +10,7 @@ import de.espirit.firstspirit.webedit.plugin.toolbar.ExecutableToolbarActionsIte
 public class To_be_renamedExecutableToolbarActionsItem implements ExecutableToolbarActionsItem {
 
     private final String BUNDLE_NAME = "to_be_renamed";
-    private final String ICON_PATH = "icons/icon.png";
+    private final String ICON_PATH = "to_be_renamed/icon.png";
 
     // a button that shows up inside the toolbar action menu of the ContentCreator
     // can be used to trigger something
