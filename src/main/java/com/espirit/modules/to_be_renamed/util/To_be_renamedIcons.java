@@ -15,11 +15,11 @@ public class To_be_renamedIcons {
 	/**
 	 * The constant that contains the SiteArchitect pattern path to the icons.
 	 */
-	private static final String JC_PATTERN = "/icons/%s.png";
+	private static final String JC_PATTERN = "/to_be_renamed/%s.png";
 	/**
 	 * The constant that contains the ContentCreator pattern path to the icons.
 	 */
-	private static final String WE_PATTERN = "icons/%s.png";
+	private static final String WE_PATTERN = "to_be_renamed/%s.png";
 
 	private To_be_renamedIcons() {
 		throw new IllegalStateException("Utility class");
