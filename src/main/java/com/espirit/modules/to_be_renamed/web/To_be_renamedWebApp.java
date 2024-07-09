@@ -9,6 +9,7 @@ import de.espirit.firstspirit.module.descriptor.WebAppDescriptor;
 @WebAppComponent(name = "to_be_renamed-web-app",
         displayName = "To_be_renamed Web App",
         webXml = "web/web.xml",
+        xmlSchemaVersion = "6.0",
         webResources = {
                 @WebResource(path = "to_be_renamed/", name = "to_be_renamed-web-resources", version = "1.0.0", targetPath = "to_be_renamed/")
         }
