@@ -1,5 +1,6 @@
-package com.espirit.modules.to_be_renamed.util;
+package com.espirit.modules.to_be_renamed.urlfactory;
 
+import com.espirit.moddev.components.annotations.UrlFactoryComponent;
 import de.espirit.common.io.IoError;
 import de.espirit.common.tools.Strings;
 import de.espirit.firstspirit.access.Language;
@@ -41,7 +42,8 @@ import static java.util.Objects.requireNonNull;
  * Search engine-optimized path factory. The base name of a node is produced from the language dependent display name
  *  * (see {@link #getName(IDProvider, Language)}).
  */
-public class UrlFactoryExample implements UrlFactory {
+@UrlFactoryComponent(name = "To_be_renamedUrlFactory")
+public class To_be_renamedUrlFactory implements UrlFactory {
 
   protected enum WelcomeFileMode {DISABLED, FOR_FIRST_HTML_CHANNEL, FOR_ALL_HTML_CHANNELS, FOR_SELECTED_CHANNELS}
 
