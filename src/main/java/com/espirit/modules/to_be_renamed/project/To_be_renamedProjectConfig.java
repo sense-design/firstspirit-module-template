@@ -34,6 +34,7 @@ public class To_be_renamedProjectConfig extends GenericConfigPanel<ProjectEnviro
         //set up a configuration
         //you can use and concatenate several generic fields like text, password, checkbox or hiddenString
 
+
         builder().text("Var 1", VAR_1, "to_be_renamed value", "Text variable for a basic configuration")
                 .password("Var 2", VAR_2, "to_be_renamed secret", "Password variable for a basic configuration")
                 .hiddenString(DOM_COMPONENT, "sc_dom")

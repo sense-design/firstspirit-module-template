@@ -45,8 +45,10 @@ public class To_be_renamedConnector {
 
     //constructor with project app config panel values
     private To_be_renamedConnector(SpecialistsBroker broker) {
+
         this.var1 = To_be_renamedProjectConfig.values(broker, To_be_renamedProjectApp.class).getString(To_be_renamedProjectConfig.VAR_1);
         this.var2 = To_be_renamedProjectConfig.values(broker, To_be_renamedProjectApp.class).getString(To_be_renamedProjectConfig.VAR_2);
+
     }
 
     //constructor with manual values if needed

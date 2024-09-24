@@ -21,6 +21,7 @@ public class To_be_renamedIcons {
 	 */
 	private static final String WE_PATTERN = "icons/%s.png";
 
+
 	private To_be_renamedIcons() {
 		throw new IllegalStateException("Utility class");
 	}
@@ -50,7 +51,9 @@ public class To_be_renamedIcons {
 	 * @return the active Image
 	 */
 	public static Image<?> getActive(BaseContext context) {
+
 		return getImageIcon(context, "icon");
+
 	}
 
 	/**
@@ -60,7 +63,9 @@ public class To_be_renamedIcons {
 	 * @return the inactive Image
 	 */
 	public static Image<?> getInactive(BaseContext context) {
+
 		return getImageIcon(context, "icon");
+
 	}
 
 	/**
@@ -70,6 +75,8 @@ public class To_be_renamedIcons {
 	 * @return the snippet Image
 	 */
 	public static Image<?> getSnippet(BaseContext context) {
+
 		return getImageIcon(context, "icon");
+
 	}
 }

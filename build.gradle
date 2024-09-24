@@ -8,7 +8,7 @@
 
 buildscript {
     ext {
-        fsRuntimeVersion = '5.2.240712'
+        fsRuntimeVersion = '5.2.240712'    
     }
 }
 
@@ -116,6 +116,7 @@ task replaceNames() {
     doLast {
         copy {
             from("src") {
+
                 include "**/*.properties"
                 include "**/*.java"
                 include "**/*.xml"

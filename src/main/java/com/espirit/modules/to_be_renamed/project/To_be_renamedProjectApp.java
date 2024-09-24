@@ -6,6 +6,7 @@ import de.espirit.firstspirit.module.ProjectEnvironment;
 import de.espirit.firstspirit.module.descriptor.ProjectAppDescriptor;
 
 @ProjectAppComponent(name = "To_be_renamed Project App", configurable = To_be_renamedProjectConfig.class)
+
 public class To_be_renamedProjectApp implements ProjectApp {
 
     // several hooks defined by the ProjectApp interface

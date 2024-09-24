@@ -8,7 +8,9 @@ import de.espirit.firstspirit.webedit.plugin.toolbar.WebeditToolbarItem;
 import java.util.Arrays;
 import java.util.Collection;
 
+
 @PublicComponent(name = "To_be_renamedWebeditToolbarActionsItemsPlugin")
+
 public class To_be_renamedWebeditToolbarActionsItemsPlugin implements WebeditToolbarActionsItemsPlugin {
 
     private BaseContext _context;
