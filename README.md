@@ -39,7 +39,7 @@ Within the gradle.properties file of this project you have to setup the followin
 - **firstSpiritModule.description**
   - The description of your module to be displayed within the server configuration, e.g. `firstSpiritModule.description=An example description.`
 - **firstSpiritModule.vendor**
-  - The vendor of your module, i.e. your company, e.g. `firstSpiritModule.vendor=Crownpeak`
+  - The vendor of your module, i.e. your company, e.g. `firstSpiritModule.vendor=ESUG`
 - **groupId**
   - The group ID to identify your module if uploaded to an artifactory, e.g. `groupId=com.espirit.modules.mymodule`
 - **publishing.releaseRepository**
@@ -116,13 +116,13 @@ In some cases it is helpful to be able to debug your own implementation in SiteA
 - Possibility to set breakpoints in code
 
 ## Legal Notices
-The FirstSpirit Module Template is a product of Crownpeak Technology GmbH, Dortmund, Germany.
+The FirstSpirit Module Template is maintained and provided by the e-Spirit Usergroup e.V., Viersen, Germany.
 The FirstSpirit Module Template is subject to the Apache-2.0 license.
 
 ## Disclaimer
-This document is provided for information purposes only. Crownpeak may change the contents hereof without notice.
+This document is provided for information purposes only. The e-Spirit Usergroup e.V. may change the contents hereof without notice.
 This document is not warranted to be error-free, nor subject to any other warranties or conditions, whether expressed
 orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular
-purpose. Crownpeak specifically disclaims any liability with respect to this document and no contractual obligations
+purpose. The e-Spirit Usergroup e.V. specifically disclaims any liability with respect to this document and no contractual obligations
 are formed either directly or indirectly by this document. The technologies, functionality, services, and processes
 described herein are subject to change without notice.
